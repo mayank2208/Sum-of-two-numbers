@@ -1,0 +1,14 @@
+#include<stdio.h>
+void fun(int,int);
+int main()
+{
+int a=2,b=6;
+fun(a,b);
+return 0;
+}
+void fun(int a,int b)
+{
+int s=0;
+s=a+b;
+printf("%d",s);
+}
